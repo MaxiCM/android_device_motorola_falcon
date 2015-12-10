@@ -36,6 +36,12 @@ PRODUCT_COPY_FILES += \
 # OTA
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.ota.manifest=http://maxicm.com/falcon/ota.xml
+	
+# ART
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.image-dex2oat-filter=speed \
+    dalvik.vm.dex2oat-filter=interpret-only \
+    dalvik.vm.dex2oat-flags=--no-watch-dog
 
 # Inherit from msm8226-common
 $(call inherit-product, device/motorola/msm8226-common/msm8226.mk)
