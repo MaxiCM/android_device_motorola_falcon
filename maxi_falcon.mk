@@ -24,5 +24,5 @@ $(call inherit-product, device/motorola/falcon/device.mk)
 PRODUCT_DEVICE := falcon
 PRODUCT_NAME := maxi_falcon
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := falcon
-PRODUCT_MANUFACTURER := motorola
+PRODUCT_MODEL := Moto G
+PRODUCT_MANUFACTURER := Motorola
