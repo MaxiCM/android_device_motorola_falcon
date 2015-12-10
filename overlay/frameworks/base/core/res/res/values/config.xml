@@ -25,6 +25,6 @@
     <bool name="config_lte_capable">false</bool>
 
   <!-- Fast charge path -->
-    <!--<string name="config_fast_charge_path">/sys/kernel/fast_charge/force_fast_charge</string> -->
+    <string name="config_fast_charge_path">/sys/kernel/fast_charge/force_fast_charge</string>
 
 </resources>
