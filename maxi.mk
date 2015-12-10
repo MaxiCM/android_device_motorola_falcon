@@ -1,6 +1,6 @@
 $(call inherit-product, device/motorola/falcon/maxi_falcon.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common MaxiCM stuff.
 $(call inherit-product, vendor/maxi/config/common_full_phone.mk)
 
 PRODUCT_RELEASE_NAME := MOTO G
