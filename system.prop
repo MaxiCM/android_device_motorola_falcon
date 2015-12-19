@@ -1,0 +1,3 @@
+# Build.prop data
+ro.product.device=Moto G
+ro.product.model=falcon
