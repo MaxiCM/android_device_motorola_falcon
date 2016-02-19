@@ -1,4 +1,4 @@
-Universal device configuration for the Moto G (falcon)
+MaxiCM device configuration for the Moto G (falcon)
 ===============================
 
 Copyright 2016 - The MaxiCM Project
